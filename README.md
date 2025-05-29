@@ -10,7 +10,7 @@ You’ll be using the **GitHub Wiki** to update all your project details in a st
 ## 🧠 What to Do First
 
 Cricket bowlers lack a way to improve an integral part of their bowling quality: their line and length. This project aims to give bowlers visual feedback on where they have bowled and where they should bowl depending on certain circumstances.
-
+Our solution involves a mat that is divided into a grid of squares where each square represents a spot for the bowler to bowl. Using information from our user our app will calculate where the user should bowl and accordingly light up the LEDs of that square. Using piezo-electric sensors, we will detect where the user has actually bowled and help him/her improve through a gamified system or simple advice
 ---
 
 ## 🛠 Where to Document Everything Else
