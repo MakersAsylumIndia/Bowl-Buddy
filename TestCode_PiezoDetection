@@ -1,0 +1,44 @@
+const int piezoPins[15] = {
+  32, 33, 34, 35, 36,
+  39, 25, 26, 27, 14,
+  12, 13, 2, 4, 15
+};
+
+// Sensor threshold
+const int threshold = 300;  // Tune this based on your testing
+
+void setup() {
+  Serial.begin(115200);
+
+  // Initialize all pins
+  for (int i = 0; i < 15; i++) {
+    pinMode(piezoPins[i], INPUT);
+  }
+}
+
+void loop() {
+
+  int maxValue = 0;
+  int hitIndex = -1;
+
+  // Read all sensors
+  for (int i = 0; i < 15; i++) {
+    int sensorValue = analogRead(piezoPins[i]);
+
+    if (sensorValue > maxValue) {
+      maxValue = sensorValue;
+      hitIndex = i;
+    }
+  }
+
+  if (maxValue > threshold && hitIndex != -1) {
+    int square = hitIndex + 1;
+
+    Serial.print("Ball has bounced on square ");
+    Serial.println(square);
+
+    delay(500);  // Debounce delay to avoid multiple detections
+  }
+
+  delay(10);  // Small loop delay
+}
