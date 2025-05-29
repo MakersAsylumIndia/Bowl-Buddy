@@ -9,12 +9,7 @@ You’ll be using the **GitHub Wiki** to update all your project details in a st
 
 ## 🧠 What to Do First
 
-Start by writing a **brief introduction** to your project right here in this `README.md` file:
-
-🔹 What problem are you solving?  
-🔹 What’s your proposed solution?
-
-Just 2–3 lines are enough. This helps others quickly understand what your project is about.
+Cricket bowlers lack a way to improve an integral part of their bowling quality: their line and length. This project aims to give bowlers visual feedback on where they have bowled and where they should bowl depending on certain circumstances.
 
 ---
 
