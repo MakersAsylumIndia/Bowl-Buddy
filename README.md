@@ -77,6 +77,8 @@ MIT open source [license](http://opensource.org/licenses/MIT).
 
 ## 📬 Contact/Team
 
-> _List team members and contact emails or GitHub profiles._
+>nidhi6-y
+>Shaurya1901
+
 
 ---
