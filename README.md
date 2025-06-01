@@ -1,19 +1,19 @@
-# 📘 Welcome to the IS Project Documentation Template!
+# 📘 Welcome to the IS Project Documentation.
 
 Hey there! 👋
 
-This repository is your home for documenting your **Innovation School Project** and starting your **maker portfolio**.  
-You’ll be using the **GitHub Wiki** to update all your project details in a structured format.
+This repository is our home for documenting our **Innovation School Project** and starting our **maker portfolio**.  
+
 
 ---
 
-## 🧠 What to Do First
+## 🧠 What did we work on 
 
 Cricket bowlers lack a way to improve an integral part of their bowling quality: their line and length. This project aims to give bowlers visual feedback on where they have bowled and where they should bowl depending on certain circumstances.
 Our solution involves a mat that is divided into a grid of squares where each square represents a spot for the bowler to bowl. Using information from our user our app will calculate where the user should bowl and accordingly light up the LEDs of that square. Using piezo-electric sensors, we will detect where the user has actually bowled and help him/her improve through a gamified system or simple advice
 ---
 
-## 🛠 Where to Document Everything Else
+## 🛠 Where we Documented Everything Else
 
 We’ve already created a standard set of [**Wiki pages**](https://github.com/MakersAsylumIndia/Bowl-Buddy/wiki) for your project in this repository — you just need to **update them with your project information**.
 
