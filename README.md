@@ -29,9 +29,9 @@ MIT open source [license](http://opensource.org/licenses/MIT).
 
 ## 📬 Contact/Team
 
->Makers Asylum
->nidhi6-y
->Shaurya1901
+>[Makers Asylum](https://github.com/makersasylumindia)
+>[nidhi6-y](https://github.com/nidhi6-y)
+>[Shaurya1901](https://github.com/Shaurya1901)
 
 
 ---
